@@ -11,7 +11,8 @@ const Layout = (props) => {
                         <span className={s.separator}></span>   
                     </div>
                     <div className={s.desc && s.full}>
-                        <p>{props.desc || null}</p>
+                        <p>{props.desc || null}</p> 
+                        
                     </div>
                 </article>
             </div>
